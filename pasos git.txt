@@ -1,0 +1,46 @@
+pasos git:
+
+git init: inicializar git en proyecto
+
+git add: agregar archivo al stage
+
+git commit: commitea el archivo (git commit nombrearchivo.tipo -m "mensaje del commit para ver que se hizo"
+
+git add . : para agregar todos los archivos que estan fuera del stage management al stage management
+
+git log: ver llas cosas que se hicieron 
+
+git diff nombrearchivo.tipo: para ver las diferencias entre el archivo actual y el archivo commiteado
+
+git checkout nombrearchivo.tipo: vuelve a la version anterior el archivo especificado
+
+
+para subir a github:
+
+git remote add origin https://github.com/nombreUsuario/nombreRepo.git    //para agregar la repo externa
+
+git push -u origin master //agregar repo local a externo
+
+eliminar del staging area: git rm --cached -r . (el punto es para eliminar todo sino se pone el nombre del archivo)
+
+cosas .gitignore:
+
+se pone el nombre de los archivos que no se quieren compartir
+comentarios con #
+si pongo *.txt se va a ignorar todo lo que sea txt
+
+clonar de github a pc:
+
+git clone
+
+
+--------------------------------------
+CREACION DE BRANCHES!
+
+para crear un branch: git branch nombre-nuevo-branch
+
+para ver branches: git branch y con * marca en cual estoy parado
+
+para cambiar de branch: git checkout nombre-nuevo-branch
+
+para mergear con el branch extra: git merge nombre-branch
